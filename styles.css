@@ -24,7 +24,8 @@ h1 {
 }
 
 label {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 textarea {
@@ -36,13 +37,13 @@ textarea {
 }
 
 .counter {
-    font-size: .8rem;
+    font-size: 1rem;
     color: #555;
 }
 
 #toggle {
-    background-color: rgba(193, 193, 193, 0.73);
-    color: black;
+    background-color: rgba(36, 101, 214, 0.87);
+    color: white;
     font-size: 1.1rem;
     padding: 0.4rem 1rem;
     border-radius: 5px;
@@ -52,7 +53,7 @@ textarea {
 }
 
 #toggle:hover {
-    background-color: rgba(144, 144, 144, 0.573);
+    background-color: rgb(2, 53, 140);
 }
 
 p {
