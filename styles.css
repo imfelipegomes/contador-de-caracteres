@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 3rem;
+    height: 3rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -11,7 +16,7 @@
 }
 
 .field {
-    width: 500px;
+    width: 700px;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -27,7 +32,7 @@ textarea {
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #949494;
 }
 
 .counter {
@@ -36,7 +41,7 @@ textarea {
 }
 
 #toggle {
-    background-color: rgb(193, 193, 193);
+    background-color: rgba(193, 193, 193, 0.73);
     color: black;
     font-size: 1.1rem;
     padding: 0.4rem 1rem;
@@ -47,5 +52,10 @@ textarea {
 }
 
 #toggle:hover {
-    background-color: rgb(144, 144, 144);
+    background-color: rgba(144, 144, 144, 0.573);
+}
+
+p {
+    font-size: 0.7rem;
+    color: rgb(158, 158, 158);
 }
